@@ -19,10 +19,13 @@
 
 .splitter-layout > .layout-splitter {
   flex: 0 0 auto;
-  width: 4px;
+  width: 12px;
   height: 100%;
   cursor: col-resize;
   background-color: #ccc;
+  background-image: url("./grabIcon.png");
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 .splitter-layout .layout-splitter:hover {
