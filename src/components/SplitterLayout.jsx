@@ -20,7 +20,7 @@ function clearSelection() {
   }
 }
 
-const DEFAULT_SPLITTER_SIZE = 12;
+const DEFAULT_SPLITTER_SIZE = 4;
 
 class SplitterLayout extends React.Component {
   constructor(props) {
